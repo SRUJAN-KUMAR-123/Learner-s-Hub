@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Educational Details</title>
+		<link rel="stylesheet" href="./assets/css/style1.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">Registration</div>
+			<div class="title1">Educational Details</div>
+
+			<div class="content">
+				<form id="registrationForm" action="reg2">
+					<div class="user-details">
+						<div class="input-box">
+							<span class="details">Qualification</span>
+							<select id="title" name="qual">
+								<option value="High School">High School</option>
+								<option value="Diploma">Diploma</option>
+								<option value="Bachelor of Technology">Bachelor of Technology</option>
+								<option value="Bachelor of Engineering">Bachelor of Engineering</option>
+								<option value="Master of Technology">Master of Technology</option>
+								<option value="Master of Engineering">Master of Engineering</option>
+							</select>
+						</div>
+
+						<div class="input-box">
+							<span class="details">Name of the Institution</span>
+							<input
+								type="text"
+								name="inst"
+								placeholder="Enter your Institution Details"
+								required />
+						</div>
+
+						<div class="input-box">
+							<span class="details">Mode of Instructions</span>
+							<input
+								type="text"
+								name="mode"
+								placeholder="Mode of Instructions"
+								required />
+						</div>
+
+						<div class="input-box">
+							<span class="details">Year of Passing</span>
+							<input
+								type="number"
+								name="year"
+								placeholder="Enter your Passing Year"
+								required />
+						</div>
+
+						<div class="input-box">
+							<span class="details">Pass Percentage</span>
+							<input
+								type="number"
+								name="per"
+								placeholder="Enter your Pass Percentage"
+								required />
+						</div>
+					</div>
+
+					<div class="title1">Contact Details</div>
+					<div class="user-details">
+						<div class="input-box">
+							<span class="details">Contact Number </span>
+							<input
+								type="phone number"
+								name="mobile"
+								placeholder="Enter your Ph.No"
+								required />
+						</div>
+						<div class="input-box">
+							<span class="details">Email Address </span>
+							<input
+								type="email"
+								name="email"
+								placeholder="Enter your E-mail"
+								required />
+						</div>
+						<div class="input-box">
+							<span class="details">Address for Communicationr </span>
+							<input
+								type="text"
+								name="address"
+								placeholder="Enter your Address"
+								required />
+						</div>
+					</div>
+					<div class="button">
+						<input type="submit" value="Next" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

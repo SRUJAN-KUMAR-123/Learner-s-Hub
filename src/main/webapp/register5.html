@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Educational Details</title>
+		<link rel="stylesheet" href="./assets/css/style1.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">Registration</div>
+			<div class="title1">Experience Details</div>
+
+			<div class="content">
+				<form id="registrationForm" action="reg5">
+					<div class="user-details">
+						<div class="input-box">
+							<span class="details">Subject's Taught</span>
+							<input
+								type="text"
+								name="subjects"
+								placeholder="Previously Taughted Subjects"
+								required />
+						</div>
+
+						<div class="input-box">
+							<span class="details">Education Background</span>
+							<input
+								type="text"
+								name="degree"
+								placeholder="Degrees or relevant qualifications"
+								required />
+						</div>
+
+						<div class="input-box">
+							<span class="details">Availability</span>
+							<select id="title" name="availability">
+								<option value="Day Time">Day Time</option>
+								<option value="AfterNoon Time">Afternoon</option>
+								<option value="Evening Time">Evening</option>
+								<option value="Night Time">Night Time</option>
+							</select>
+						</div>
+
+						<div class="input-box">
+							<span class="details">Teaching Experience</span>
+							<input
+								type="number"
+								name="teachingexp"
+								placeholder="Enter your Teaching Experience"
+								required />
+						</div>
+
+						<div class="input-box">
+							<span class="details">Bio_Graphy</span>
+							<input
+								type="text"
+								name="biography"
+								placeholder="A brief Description of Experience"
+								required />
+						</div>
+					</div>
+
+					<div class="title1">Contact Details</div>
+					<div class="user-details">
+						<div class="input-box">
+							<span class="details">Contact Number </span>
+							<input
+								type="phone number"
+								name="mobile"
+								placeholder="Enter your Ph.No"
+								required />
+						</div>
+						<div class="input-box">
+							<span class="details">Email Address </span>
+							<input
+								type="email"
+								name="email"
+								placeholder="Enter your E-mail"
+								required />
+						</div>
+						<div class="input-box">
+							<span class="details">Address for Communicationr </span>
+							<input
+								type="text"
+								name="address"
+								placeholder="Enter your Address"
+								required />
+						</div>
+					</div>
+					<div class="button">
+						<input type="submit" value="Next" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

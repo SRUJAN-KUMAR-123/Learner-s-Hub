@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Login</title>
+		<link rel="stylesheet" href="./assets/css/style1.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="container login-width">
+			<div class="title">Login Details</div>
+			<!-- <div class="title1">Personal Details</div> -->
+
+			<div class="content">
+				<form id="registrationForm" action="reg3">
+					<div class="user-details flex-col login-form">
+						<div class="input-box">
+							<span class="details">Username</span>
+							<input
+								type="text"
+								name="uname"
+								placeholder="Enter your User name"
+								required />
+						</div>
+						<div class="input-box">
+							<span class="details">Password</span>
+							<input
+								type="password"
+								id="password"
+								name="password"
+								placeholder="Enter your Password"
+								required />
+						</div>
+						<div class="input-box">
+							<span class="details">Confirm Password</span>
+							<input
+								type="password"
+								id="confirm_password"
+								name="cPass"
+								placeholder="Confirm your Password"
+								required />
+						</div>
+
+						<!-- <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div> -->
+					</div>
+
+					<div class="button">
+						<input type="submit" value="Register" />
+					</div>
+				</form>
+			</div>
+		</div>
+		<script >
+		var password = document.getElementById("password")
+		  , confirm_password = document.getElementById("confirm_password");
+
+		function validatePassword(){
+		  if(password.value != confirm_password.value) {
+		    confirm_password.setCustomValidity("Passwords Don't Match");
+		  } else {
+		    confirm_password.setCustomValidity('');
+		  }
+		}
+
+		password.onchange = validatePassword;
+		confirm_password.onkeyup = validatePassword;
+		</script>
+	</body>
+</html>

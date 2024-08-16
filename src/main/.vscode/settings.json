@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "java"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\solom\\Documents\\Srujan\\SDC\\apache-tomcat-10.1.15\\lib\\jakartaee-migration-1.0.7-shaded.jar"
+    ]
+}
