@@ -64,7 +64,7 @@ LearnersHub/
 
 ---
 
-▶️ [Watch Demo Video on Google Drive]([https://drive.google.com/file/d/YOUR_VIDEO_ID/view](https://drive.google.com/file/d/1iDiP3nQJHQNb8ylnNb1WTMrE1iL4Kptt/view?usp=sharing))
+▶️ [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1iDiP3nQJHQNb8ylnNb1WTMrE1iL4Kptt/view?usp=sharing)
 
 ---
 
